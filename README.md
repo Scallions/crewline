@@ -53,7 +53,7 @@ npm run dev -- --host 127.0.0.1 --port 4173 --strictPort
 | `src/styles.css` | 原图设计样式、响应式、交互状态 |
 | `tests/domain.test.mjs` | 预算、账本、状态机及返工等业务不变量 |
 | `docs/reference/` | 本地原始 PRD 与最新设计图（不上传公开仓库） |
-| `design-qa.md` | 视觉与交互验证记录 |
+| `design-qa.md` | 视觉与交互验证记录（仅本地保存） |
 
 品牌与演示头像使用内置 Imagegen 依据参考图生成；界面图标使用 Phosphor。所有图片均随项目保存，无外部图片依赖。
 
