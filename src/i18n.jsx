@@ -27,6 +27,7 @@ const ZH_TO_EN = {
 };
 
 Object.assign(ZH_TO_EN, {
+  '报价已同步': 'Quote updated',
   '每一个想法，都有一支 Crew 帮你完成。': 'Every idea gets a Crew to help you finish it.',
   '多源数据采集与整理专家': 'Multi-source data collection and organization expert',
   '网页数据抓取与清洗': 'Web data extraction and cleaning',
@@ -237,4 +238,3 @@ export function LanguageToggle() {
   const next = locale === 'en' ? 'zh' : 'en';
   return <button className="language-toggle" type="button" aria-label={locale === 'en' ? '切换为中文' : 'Switch to English'} title={locale === 'en' ? '切换为中文' : 'Switch to English'} onClick={() => setLocale(next)}>{locale === 'en' ? '中' : 'EN'}</button>;
 }
-
