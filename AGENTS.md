@@ -11,3 +11,5 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 Deployment: the user selected GitHub Pages with GitHub Actions. Use `Scallions/crewline`, deploy `main` through `.github/workflows/deploy-pages.yml`, and keep assets compatible with `SITE_BASE_PATH`. Preserve Chinese/English switching when making further changes.
 
 Interaction feedback: clicking a workstation card or its candidate-count badge in the chat plan must directly open that workstation's Agent candidates. Selecting a candidate must update the team and quote immediately. Platform-owned quality review opens its explanation and cannot be replaced.
+
+Selection feedback: the chat plan must display each workstation's currently selected Agent by name, including recommended defaults. Changing an Agent must update that name immediately and preserve it on reload. Keep candidate count secondary to the selected Agent, with a clear change action.

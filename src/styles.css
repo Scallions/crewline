@@ -24,3 +24,5 @@
 .button{text-decoration:none}.report-table{overflow-x:auto;margin:18px 0}.report-table table{width:100%;border-collapse:collapse;text-align:left;font-size:12px}.report-table th,.report-table td{padding:11px 14px;border:1px solid var(--line)}.report-table th{background:#f0f6f3;color:var(--green);font-weight:600}.report-preview ul{padding-left:20px;margin:14px 0;color:#607668;font-size:12px;line-height:1.9}
 .nav-scrim{display:none}@media(max-width:540px){.nav-scrim{display:block}}
 .candidate-count-caret{margin-left:auto}.flow-card:hover .candidate-count,.flow-card:focus-visible .candidate-count{background:#e9f4ef;color:var(--green)}
+.flow-agent-selection{display:block}.flow-selection-label,.flow-candidate-hint{display:block;font-size:9px;line-height:1.5;color:#8290a4}.flow-selection-label{margin-bottom:4px}.flow-candidate-hint{margin-top:4px}.candidate-selection{align-items:flex-start;gap:5px;background:#edf6f1;color:var(--green)}.candidate-selection>svg{margin-top:2px}.flow-selected-agent{flex:1;min-width:0;white-space:normal;overflow-wrap:anywhere;font-size:11px;font-weight:600;line-height:1.4}
+.station-flow .flow-card{height:100%}

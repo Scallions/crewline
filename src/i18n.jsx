@@ -27,6 +27,7 @@ const ZH_TO_EN = {
 };
 
 Object.assign(ZH_TO_EN, {
+  '更换 Agent': 'Change Agent',
   '报价已同步': 'Quote updated',
   '每一个想法，都有一支 Crew 帮你完成。': 'Every idea gets a Crew to help you finish it.',
   '多源数据采集与整理专家': 'Multi-source data collection and organization expert',
